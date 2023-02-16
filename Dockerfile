@@ -20,5 +20,5 @@ COPY ./app /app
 #RUN pip install -r requirements.txt
 RUN pip install --upgrade pip
 RUN pip install flask
-
+EXPOSE 5000
 CMD ["python", "app.py"]
