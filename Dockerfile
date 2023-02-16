@@ -9,7 +9,7 @@ COPY ./app /app
 
 ENV FLASK_APP app.py
 ENV FLASK_RUN_HOST 0.0.0.0
-ENV FLASK_RUN_PORT 80
+ENV FLASK_RUN_PORT 5000
 
-CMD ["python","app.py"]
-#CMD ["flask", "run"]
+#CMD ["python","app.py"]
+CMD ["flask", "run"]
